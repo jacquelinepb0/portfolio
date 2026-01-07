@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="index.css">
+  </head>
     <title>Portfolio</title>
   </head>
-  <body>
-    <header>
-      <img width="100" src="flor.jpg" alt="foto de perfil" />
-      <h1>
+  <body class="bg-[#16181D] text-[#e2e4e9]">
+    <header class="py-[110px] text-center bg-[url(/assests/Background_Intro.svg) bg-cover]">
+      <img class="rounded-full border-3 border-(--color-red) p-1 m-auto" width="100" src="flor.jpg" alt="foto de perfil" />
+      <div class="my-14 w-[60%] m-auto">
+      <h1 class="font-[Inconsolata]">
         Hello World! Meu nome é <span>Jacqueline Pinheiro</span> e sou
         <span>Desenvolvedora FullStack</span>
       </h1>
@@ -17,6 +24,7 @@
         Desenvolvo sistemas através da minha paixão pela tecnologia,
         contribuindo com soluções inovadoras e eficazes para desafios complexos
       </p>
+    </div>
       <div>
         <span>HTML</span>
         <span>CSS</span>
