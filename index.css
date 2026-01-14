@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 :root {
-    --font-Inconsolata: "Inconsolata", sans-serif;
-    --color-red: #e3646e;
+        --color-red: #e3646e;
+        --gray-300: #292c34
 }
